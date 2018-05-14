@@ -1,0 +1,40 @@
+{ 
+	Profession:"minecraft:farmer",
+	Career:"fisherman",
+
+	Offers:{
+		Recipes:[
+		
+			{action:"clear"},
+
+			{action:"add", buy:{id:"minecraft:fish",Damage:0,Count:{min:15,max:18}},sell:{id:"minecraft:emerald",Count:2}, CareerLevel:1},
+			{action:"add", buy:{id:"minecraft:fish",Damage:1,Count:{min:10,max:12}},sell:{id:"minecraft:emerald",Count:2}, CareerLevel:1},
+			{action:"add", buy:{id:"minecraft:string",Count:{min:16,max:20}},sell:{id:"minecraft:emerald",Count:2}, CareerLevel:1},
+			{action:"add", buy:{id:"minecraft:emerald",Damage:0,Count:2},sell:{id:"minecraft:cooked_fish",Count:{min:7,max:9}}, CareerLevel:1},
+			{action:"add", buy:{id:"minecraft:emerald",Count:{min:1,max:2}},sell:{id:"minecraft:fishing_rod",Count:1}, CareerLevel:1},
+			
+			{action:"add", buy:{id:"minecraft:emerald",Count:2},sell:{id:"minecraft:cooked_fish",Count:{min:6,max:7},Damage:1}, CareerLevel:2},
+			{action:"add", sell:{id:"harvestcraft:watertrap",Count:1},buy:{id:"minecraft:emerald",Count:{min:2,max:3}}, CareerLevel:2},
+			{action:"add", sell:{id:"harvestcraft:fishtrapbaititem",Count:{min:12,max:16}},buy:{id:"minecraft:emerald",Count:2}, CareerLevel:2},
+			
+			{action:"add", buy:{id:"minecraft:emerald",Count:{min:3,max:4}},sell:{id:"minecraft:potion",Count:1,tag:{Potion: "minecraft:luck"}}, CareerLevel:3},
+			{action:"add", buy:{id:"minecraft:emerald",Count:{min:3,max:4}},sell:{id:"combustfish:golden_rod",Count:1}, CareerLevel:3},
+			{action:"add", buy:{id:"minecraft:emerald",Count:2},sell:{id:"harvestcraft:fishdinneritem",Count:{min:4,max:5}}, CareerLevel:3},
+			
+			{action:"add", buy:{id:"combustfish:combustive_cod",Damage:0,Count:{min:8,max:10}},sell:{id:"minecraft:emerald",Count:2}, CareerLevel:4},
+			{action:"add", buy:{id:"combustfish:bone_fish",Damage:0,Count:{min:8,max:10}},sell:{id:"minecraft:emerald",Count:2}, CareerLevel:4},
+			{action:"add", buy:{id:"minecraft:emerald",Count:{min:7,max:8}},sell:{id:"combustfish:golden_rod",Count:1,tag:{ench:"random"}}, CareerLevel:4},
+			
+			{action:"add", buy:{id:"minecraft:emerald",Count:{min:4,max:6}},sell:{id:"combustfish:searing_swordfish",Count:1,tag:{ench:"random"}}, CareerLevel:5},
+			{
+				action:"add", 
+				buyB:{id:"minecraft:emerald",Count:{min:48,max:56}}, buy:{id:"potionfingers:ring",Count:1,Damage:0},
+				sell:{id:"potionfingers:ring",Count:1,Damage:1,tag:{effect: "minecraft:luck"}}, 
+				CareerLevel:5
+			}
+			
+			
+		]
+	}
+
+}

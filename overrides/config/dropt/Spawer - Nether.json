@@ -1,0 +1,92 @@
+{
+  "priority": 5,
+  "rules": [
+    {
+      "match": {
+		"dimensions": {
+			"ids": [1]
+			},
+        "blocks": {
+          "blocks": [
+            "minecraft:mob_spawner"
+          ]
+        }
+        },
+      "replaceStrategy": "REPLACE_ALL",
+	  "dropCount": {
+		  "fixed": 1,
+		  "fortuneModifier": 0
+		},
+		
+      "drops": [
+        {
+          "selector": {
+			"weight": {
+              "value": 12
+				},
+			"silktouch": "ANY"
+          },
+          "item": {
+            "items": [
+              "attaineddrops2:essence"
+			  ],
+            "quantity": {
+              "min": 3,
+			  "max": 5
+            }
+          },
+		  "xp": {
+			"min": 42,
+			"max": 48,
+			"fortuneModifier": 0
+			}
+		  },
+		  
+		  {
+          "selector": {
+			"weight": {
+              "value": 3
+				},
+			"silktouch": "ANY"
+          },
+          "item": {
+            "items": [
+              "lootchests:loot_crate:2"
+            ],
+            "quantity": {
+              "fixed": 1
+            }
+          },
+		  "xp": {
+			"min": 42,
+			"max": 48,
+			"fortuneModifier": 0
+			}
+		  },
+		  
+		  {
+          "selector": {
+			"weight": {
+              "value": 1
+				},
+			"silktouch": "ANY"
+          },
+          "item": {
+            "items": [
+			  "lootchests:loot_crate:3"
+            ],
+            
+            "quantity": {
+              "fixed": 1
+            }
+		  },
+          "xp": {
+			"min": 42,
+			"max": 48,
+			"fortuneModifier": 0
+			}
+		  }
+		]
+    }
+  ]
+}

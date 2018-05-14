@@ -1,0 +1,20 @@
+{
+	"name" : "magiculture:main_mountain",
+	"exclusive" : true,
+	"criteria" : {
+		"biomeTypes" : [
+			"MOUNTAIN"
+		],
+		"weight" : 7
+	},
+	"inherit" : [
+		"magiculture:tower_mountain",
+		"magiculture:layout",
+		"magiculture:rooms_mountain",
+		"magiculture:segments_mountain",
+		"magiculture:spawners_mountain",
+		"magiculture:theme_mountain",
+		"magiculture:loot_mountain",
+		"magiculture:filters_none"
+	]
+}

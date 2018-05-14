@@ -1,0 +1,127 @@
+{
+  "version": 2,
+  "inventoryGeneratorID": "WheatFieldMill",
+  "items": [
+    {
+      "weight": 0.38,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:iron_hoe",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.27,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:web",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 4,
+      "max": 12,
+      "item": {
+        "id": "minecraft:wheat_seeds",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 2.5,
+      "min": 4,
+      "max": 16,
+      "item": {
+        "id": "minecraft:wheat",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.34,
+      "min": 1,
+      "max": 3,
+      "item": {
+        "id": "minecraft:hay_block",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 4,
+      "max": 16,
+      "item": {
+        "id": "harvestcraft:barleyitem",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 4,
+      "max": 16,
+      "item": {
+        "id": "harvestcraft:ryeitem",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 4,
+      "max": 16,
+      "item": {
+        "id": "harvestcraft:oatsitem",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.35883715748786926,
+      "min": 4,
+      "max": 12,
+      "item": {
+        "id": "harvestcraft:ryeseeditem",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.32298368215560913,
+      "min": 4,
+      "max": 12,
+      "item": {
+        "id": "harvestcraft:oatsseeditem",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.32298368215560913,
+      "min": 4,
+      "max": 12,
+      "item": {
+        "id": "harvestcraft:barleyseeditem",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 2.540874481201172,
+      "min": 3,
+      "max": 9,
+      "item": {
+        "id": "harvestcraft:flouritem",
+        "damage": 0,
+        "count": 1
+      }
+    }
+  ],
+  "dependencyExpression": ""
+}

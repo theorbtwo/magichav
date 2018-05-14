@@ -1,0 +1,127 @@
+{
+  "version": 2,
+  "inventoryGeneratorID": "VillagePumpkinChandlery",
+  "items": [
+    {
+      "weight": 0.7755888104438782,
+      "min": 8,
+      "max": 24,
+      "item": {
+        "id": "minecraft:pumpkin_seeds",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.9243392944335938,
+      "min": 1,
+      "max": 16,
+      "item": {
+        "id": "minecraft:pumpkin",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0068187713623047,
+      "min": 1,
+      "max": 8,
+      "item": {
+        "id": "minecraft:lit_pumpkin",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0068187713623047,
+      "min": 1,
+      "max": 32,
+      "item": {
+        "id": "minecraft:torch",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.2900550961494446,
+      "min": 1,
+      "max": 3,
+      "item": {
+        "id": "minecraft:pumpkin_pie",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 4.910394668579102,
+      "min": 6,
+      "max": 12,
+      "item": {
+        "id": "harvestcraft:harvestpumpkinitem",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.5354365706443787,
+      "min": 1,
+      "max": 3,
+      "item": {
+        "id": "harvestcraft:pumpkinbreaditem",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.8473554849624634,
+      "min": 3,
+      "max": 6,
+      "item": {
+        "id": "harvestcraft:roastedpumpkinseedsitem",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.5354365706443787,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "harvestcraft:pumpkincheesecakeitem",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 3.5707483291625977,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "toughasnails:fruit_juice",
+        "damage": 9,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.7087690830230713,
+      "min": 2,
+      "max": 5,
+      "item": {
+        "id": "harvestcraft:pumpkinmuffinitem",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.2900550961494446,
+      "min": 1,
+      "max": 6,
+      "item": {
+        "id": "botania:felpumpkin",
+        "damage": 0,
+        "count": 1
+      }
+    }
+  ],
+  "dependencyExpression": ""
+}

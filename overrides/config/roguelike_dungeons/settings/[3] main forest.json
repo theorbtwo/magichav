@@ -1,0 +1,20 @@
+{
+	"name" : "magiculture:main_forest",
+	"exclusive" : true,
+	"criteria" : {
+		"biomeTypes" : [
+			"FOREST"
+		],
+		"weight" : 5
+	},
+	"inherit" : [
+		"magiculture:tower_forest",
+		"magiculture:layout",
+		"magiculture:rooms",
+		"magiculture:segments_forest",
+		"magiculture:spawners",
+		"magiculture:theme_forest",
+		"magiculture:loot",
+		"magiculture:filters"
+	]
+}

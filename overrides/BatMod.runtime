@@ -1,0 +1,9 @@
+#Mon Mar 26 23:55:15 EDT 2018
+Coords.location=0
+Timer.visible=false
+Info.location=0
+Coords.visible=1
+Info.visible=0
+Timer.running=false
+Timer.location=0
+Timer.saved=00|00|00

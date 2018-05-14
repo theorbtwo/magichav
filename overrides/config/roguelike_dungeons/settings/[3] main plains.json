@@ -1,0 +1,20 @@
+{
+	"name" : "magiculture:main_plains",
+	"exclusive" : true,
+	"criteria" : {
+		"biomeTypes" : [
+			"PLAINS"
+		],
+		"weight" : 3
+	},
+	"inherit" : [
+		"magiculture:tower_plains",
+		"magiculture:layout",
+		"magiculture:rooms",
+		"magiculture:segments",
+		"magiculture:spawners",
+		"magiculture:theme",
+		"magiculture:loot",
+		"magiculture:filters"
+	]
+}
