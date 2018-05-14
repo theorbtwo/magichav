@@ -1,0 +1,14 @@
+{
+    "modid": "animania",
+    "foods": {},
+    "tools": ["animania:carving_knife"],
+    "water": [],
+    "milk":  [],
+    "oven_fuel": [],
+    "oven_recipes": {},
+    "toaster": {},
+    "tiles": {},
+    "kitchenItemProviders": [],
+    "kitchenConnectors": []
+
+}
